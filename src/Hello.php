@@ -12,7 +12,7 @@ class Hello
 
     public function hello()
     {
-        echo "11111";
+        echo "22222";
         return 'Hello ' . $this->name;
     }
 
