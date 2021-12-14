@@ -12,6 +12,7 @@ class Hello
 
     public function hello()
     {
+        echo "11111";
         return 'Hello ' . $this->name;
     }
 
