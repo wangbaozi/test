@@ -1,0 +1,24 @@
+{
+    "name": "wb/common-test",
+    "description": "公用composer文件夹",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangbaozi",
+            "email": "1172846540@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Wb\\Demo\\"  : "src"
+        },
+        "files" : [
+            "src/helper.php"
+        ],
+        "classmap"  : [
+            "src/Common"
+        ]
+    }
+}
